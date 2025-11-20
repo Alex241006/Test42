@@ -22,7 +22,7 @@ public class MethodCollector {
         methodCounter++;
         alexMethod();
         methodCounter++;
-    }
+
         anotherOne();
 
         aThirdMethod();
@@ -58,7 +58,6 @@ public class MethodCollector {
 
     private static void aThirdMethod() {
         System.out.println("MethodCollector aThirdMethod: This method has been created     by heisob ");
-    }
 
         System.out.println("MethodCollector aThirdMethod");
     }
