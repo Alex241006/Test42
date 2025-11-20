@@ -16,6 +16,7 @@ public class MethodCollector {
         methodCounter++;
         // hier kann die nächste Methode folgen.
         aAnotherMethod();
+        aSecondMethod();
         methodCounter++;
     }
 
@@ -27,4 +28,8 @@ public class MethodCollector {
     private static void aAnotherMethod() {
         System.out.println("MethodCollector aAnotherMethod: This method has been created     by henri ");
     }
+    private static void aSecondMethod() {
+        System.out.println("MethodCollector aSecondMethod: This method has been created     by heisob ");
+    }
+
 }
